@@ -1,0 +1,12 @@
+.containerc{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: url(../../public/images/background.jpg);
+}
+.modi{
+    color:rgb(249, 251, 187);
+    font-size: large;
+    background: linear-gradient(to right,rgb(158, 249, 229),rgb(2, 137, 88));
+    box-shadow: 2px 4px 4px rgba(73, 98, 96, 0.9);
+}

@@ -1,0 +1,148 @@
+
+.social-link-f{
+    text-decoration: none;
+    color: white;
+  }
+.social-link-y{
+    text-decoration: none;
+    color: white;
+  }
+.social-link-t{
+    text-decoration: none;
+    color: white;
+  }
+.social-link-i{
+    text-decoration: none;
+    color: white;
+  }
+  
+.mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyrt{
+    font-size: small;
+}
+.mini{
+        flex-direction: row;
+         width: 100%;
+         margin: 2px;
+    }
+
+}
+.icon-F{
+display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(9, 191, 242) ;
+    /* text-align: center; */
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(1, 86, 109, 0.6);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.icon-Y{
+display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(242, 9, 9);
+    /* text-align: center; */
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(95, 0, 0, 0.6);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.icon-T{
+display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(9, 129, 242);
+    /* text-align: center; */
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(1, 48, 77, 0.6);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.icon-I{
+display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color:#e1306c;
+    /* text-align: center; */
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(91, 1, 1, 0.6);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.social-link-f:hover{
+/* background-color: white; */
+color: rgb(9, 129, 242);
+}
+.icon-F:hover{
+background-color: white;
+color: rgb(9, 129, 242);
+}
+.icon-Y:hover,.social-link-y:hover{
+    background-color: white;
+    color: red;
+}
+.icon-I:hover,.social-link-i:hover{
+    background-color: white;
+    color: #f1296c;
+}
+.icon-T:hover,.social-link-t:hover{
+    background-color: white;
+    color: rgb(9, 191, 242);
+
+}
+.icon-F span{
+    /* text-align: center; */
+    top: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: red; */
+}
+.icon-I span{
+    /* text-align: center; */
+    top: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: red; */
+}
+.icon-Y span{
+    /* text-align: center; */
+    top: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: red; */
+}
+.icon-T span{
+    /* text-align: center; */
+    top: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: red; */
+}
+.card-img-top-slide{
+    height: 250px;
+    width: 100px;
+    transform: 0.5;
+    border-radius: 50%;
+}
